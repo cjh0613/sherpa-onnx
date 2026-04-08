@@ -1,17 +1,6 @@
 name: android-rknn
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - '.github/workflows/android-rknn.yaml'
-      - 'cmake/**'
-      - 'sherpa-onnx/csrc/*'
-      - 'sherpa-onnx/jni/*'
-      - 'build-android*.sh'
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+*'
 
   workflow_dispatch:
 
