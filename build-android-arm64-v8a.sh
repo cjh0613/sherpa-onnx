@@ -163,7 +163,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE="$ANDROID_NDK/build/cmake/android.toolchain.cmake" 
     -DSHERPA_ONNX_ENABLE_RKNN=$SHERPA_ONNX_ENABLE_RKNN \
     -DSHERPA_ONNX_ENABLE_QNN=$SHERPA_ONNX_ENABLE_QNN \
     -DANDROID_ABI="arm64-v8a" \
-    -DANDROID_PLATFORM=$SHERPA_ONNX_ANDROID_PLATFORM ..
+    -DANDROID_PLATFORM=android-27 ..
 
     # By default, it links to libc++_static.a
     # -DANDROID_STL=c++_shared \
